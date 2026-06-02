@@ -1,6 +1,10 @@
 {
   "name": "@heyflorentin/prettier-config",
-  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heyFlorentin/prettier-config.git"
+  },
+  "version": "1.0.2",
   "description": "Prettier Config",
   "type": "module",
   "exports": "./index.ts",
