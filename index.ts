@@ -1,0 +1,26 @@
+import { type Config } from "prettier";
+
+const config: Config = {
+  trailingComma: "none",
+  printWidth: 120,
+  proseWrap: "always",
+  endOfLine: "lf",
+  plugins: [require("prettier-plugin-astro")],
+  overrides: [
+    {
+      files: ["**/*.astro"],
+      options: {
+        parser: "astro",
+      },
+    },
+    {
+      files: ["*.yaml", "*.yml"],
+      options: {
+        proseWrap: "never",
+        objectWrap: "collapse",
+      },
+    },
+  ],
+};
+
+export default config;

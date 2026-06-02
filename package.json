@@ -1,0 +1,14 @@
+{
+  "name": "@heyflorentin/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier Config",
+  "type": "module",
+  "exports": "./index.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "prettier": ">=3.8.3",
+    "prettier-plugin-astro": ">=0.14.1"
+  }
+}
